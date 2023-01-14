@@ -20,8 +20,8 @@ section{
 
 header{
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -20px;
+    left: -50px;
     width: 100%;
     padding: 40px 100px;
     display: flex;
@@ -56,14 +56,14 @@ header .navgation a{
     position: relative;
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: space-between;
 }
 
 .container .text{
 position: relative;
 max-width: 1000px;
-margin-right: 10px;
+margin-right: -40px;
 color: rgb(250, 250, 250);
 }
 
@@ -87,6 +87,7 @@ margin-top: -80px;
 }
 
 .container .text h2 span{
+    margin-right: 50px;
     position: relative;
     margin-left: 690px;
     font-size: 6em;
@@ -116,11 +117,9 @@ margin-top: -80px;
     transition: 0.3s ease-in-out;
 }
 
-.conteiner .text a:hover{
+.container .text a:hover{
     transform: translateY(-10px);
 }
-
-
 
 body{
     display: flex;
@@ -131,44 +130,83 @@ body{
 
 
 .tainer{
-    display: flex
+display: -webkit-flex;
 }
 
+
+
 .cards1{
-    height: 510px;
-    margin: 10px;
+    height: 560px;
+    margin: 7px;
     box-shadow: 1px 1px 30px rgb(255, 255, 255, 0.342);
     overflow: hidden;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    display: inline-block;
+    margin-top: 60px;
+    margin-right: 10px;
+    padding: 10px 15px;
+    background: #fff;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
     border-radius: 10px;
 }
 
 .cards2{
-    height: 460px;
-    margin: 10px;
+    height: 560px;
+    margin: 7px;
     box-shadow: 1px 1px 30px rgb(255, 255, 255, 0.342);
     overflow: hidden;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 60px;
+    margin-right: 10px;
+    padding: 10px 15px;
+    background: #fff;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
     border-radius: 10px;
 }
 
 .cards3{
-    height: 520px;
-    margin: 10px;
+    height: 560px;
+    margin: 7px;
     box-shadow: 1px 1px 30px rgba(255, 255, 255, 0.342);
     overflow: hidden;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 60px;
+    margin-right: 10px;
+    padding: 10px 15px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
     border-radius: 10px;
 }
 
 
 .tainer .cards1 img{
-    height: 290px;
+    height: 300px;
+    border-radius: 10px;
 }
 
 .tainer .cards2 img{
-    height: 290px;
+    height: 300px;
+    border-radius: 10px;
 }
 
 .tainer .cards3 img{
-    height: 290px;
+    height: 300px;
+    border-radius: 10px;
 }
 
 .intro{
@@ -178,3 +216,13 @@ body{
     border-radius: 3px;
     background:rgb(255, 255, 255);
 }
+
+.icons{
+    position: absolute;
+    bottom: 40px;
+    left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
