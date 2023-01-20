@@ -45,5 +45,5 @@ I am a beginner in the area of programming and the only solution to link these l
 <img src=https://cdn.discordapp.com/attachments/1060190806000017511/1063800401427693608/image.png>
 
 <h2>Related projects</h2>
-〰 Landing page HTML e CSS https://github.com/Jottamarinho/Landing-Page-HTML-e-CSS
-〰 Always learning from https://github.com/gustavoguanabara/html-css
+Landing page HTML e CSS: https://github.com/Jottamarinho/Landing-Page-HTML-e-CSS
+Always learning from: https://github.com/gustavoguanabara/html-css

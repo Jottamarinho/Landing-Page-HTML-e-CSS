@@ -161,6 +161,7 @@ display: -webkit-flex;
     box-shadow: 1px 1px 30px rgb(255, 255, 255, 0.342);
     overflow: hidden;
     border-radius: 10px;
+    transition: 0.3s ease-in-out;
     display: inline-block;
     margin-top: 60px;
     margin-right: 10px;
@@ -180,6 +181,7 @@ display: -webkit-flex;
     box-shadow: 1px 1px 30px rgba(255, 255, 255, 0.342);
     overflow: hidden;
     border-radius: 10px;
+    transition: 0.3s ease-in-out;
     display: inline-block;
     margin-top: 60px;
     margin-right: 10px;
@@ -226,3 +228,51 @@ display: -webkit-flex;
     justify-content: center;
 }
 
+.instacard{
+
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 130px;
+    padding: 10px 10px 10px 7px;
+    border-radius: 9px;
+    background: #fff;
+    transition: 0.9s ease-in-out;
+    
+}
+
+.biografia .bio{
+    display: block;
+    margin-top: 20px;
+    font-size: 90px;
+    margin-left: 700px;
+    color: #fff;
+}
+
+.biografia p{
+    font-size: 25px;
+    margin-left: 700px;
+    margin-top:20px;
+    color: #fff;
+}
+
+.cliqueinsta{
+    position: absolute;
+    margin-top: 570px;
+    margin-left: 470px;
+    transition: 0.5s ease-in-out;
+}
+
+.cliqueinsta:hover{
+    transform: translateY(-10px);}
+
+
+
+.cliquegit{
+    position: absolute;
+    margin-top: 570px;
+    margin-left: 550px;
+    transition: 0.5s ease-in-out;
+}
+
+.cliquegit:hover{
+    transform: translateY(-10px);}
